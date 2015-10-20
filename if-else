@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main(){
+int angka;
+cout<<"---------------------------"<<endl;
+cout<<"Daftar menu minuman"<<endl;
+cout<<"1.soda sedih"<<endl;
+cout<<"2.kopi dingin"<<endl;
+cout<<"3.Bigkola"<<endl;
+cout<<"4.teh gelas"<<endl;
+cout<<"5.fanta"<<endl;
+cout<<"---------------------------"<<endl;
+cout<<"Masukkan minuman yang ingin anda beli " <<endl;
+cin>>angka;
+if (angka==1)
+cout<<"Anda Memesan soda sedih,Pesanan Anda Akan Keluar";
+else
+if (angka==2)
+cout<<"Anda Memesan kopi dingin,Pesanan Anda Akan Keluar";
+else
+if (angka==3)
+cout<<"Anda Memesan Bigkola,Pesanan Anda Akan Keluar";
+else
+if (angka==4)
+cout<<"Anda Memesan teh gelas, Pesanan Anda Akan Keluar";
+else
+if (angka==5)
+cout<<"Anda Memesan fanta, Pesanan Anda Akan Keluar ";
+else
+cout<<"Anda Memasukkan Angka Yang Salah ";
+return 0;
+}
