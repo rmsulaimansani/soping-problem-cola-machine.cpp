@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+{
+int angka;
+cout<<"-------------------------------\n";
+cout<<"daftar menu minuman :\n";
+cout<<"1. soda sedih\n";
+cout<<"2. kopi dingin\n";
+cout<<"3. bigkola\n";
+cout<<"4. teh gelas\n";
+cout<<"5. fanta\n";
+cout<<"-------------------------------\n";
+cout<<" Masukkanminuman yang ingin ada beli : "; cin>>angka;
+switch(angka)
+{
+case 1:cout<<"Anda memesan soda sedih, Pesanan akan Keluar";break;
+case 2:cout<<"Anda memesan kopi dingin, Pesanan Akan Keluar";break;
+case 3:cout<<"Anda memesan bigkola, Pesanan Akan Keluar";break;
+case 4:cout<<"Anda memesan teh gelas, Pesanan Akan Keluar";break;
+case 5:cout<<"Anda memesan fanta, Pesanan Akan Keluar";break;
+default :cout<<" Anda memasukkan Angka Yang salah";break;}
+return 0;
+}
